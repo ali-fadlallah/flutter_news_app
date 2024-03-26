@@ -18,6 +18,7 @@ class NewItem extends StatelessWidget {
       child: Container(
         padding: const EdgeInsets.all(10),
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             ClipRRect(
               borderRadius: BorderRadius.circular(5),
